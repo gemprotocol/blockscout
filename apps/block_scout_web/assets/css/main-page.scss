@@ -1,9 +1,11 @@
 @import "./mixins";
 
 /* Phoenix flash messages */
+
 .alert:empty {
-  display: none;
+    display: none;
 }
+
 
 /* This file is for your main application css. */
 
@@ -11,9 +13,7 @@
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
-
 @import "theme/variables";
-
 @import "~bootstrap/scss/root";
 @import "~bootstrap/scss/reboot";
 @import "~bootstrap/scss/grid";
@@ -27,7 +27,6 @@
 @import "~bootstrap/scss/utilities/float";
 @import "~bootstrap/scss/utilities/text";
 @import "~bootstrap/scss/utilities/borders";
-
 // Bootstrap Components
 @import "~bootstrap/scss/alert";
 @import "~bootstrap/scss/badge";
@@ -37,10 +36,8 @@
 @import "~bootstrap/scss/nav";
 @import "~bootstrap/scss/navbar";
 @import "~bootstrap/scss/transitions";
-
 //Custom theme
 @import "theme/fonts";
-
 // Custom SCSS
 @import "layout";
 @import "typography";
@@ -72,5 +69,7 @@
 @import "components/token_tile_view_more";
 // Font Awesome
 @import "components/_fontawesome_icon";
-
 @import "theme/dark-theme";
+.js-ad-dependant-pt {
+    background: url(https://pepechain.network/images/bg.png) !important;
+}
