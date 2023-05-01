@@ -73,3 +73,25 @@
 .js-ad-dependant-pt {
     background: url(https://pepechain.network/images/bg.png) !important;
 }
+
+.navbar-logo,
+.footer-logo {
+    filter: brightness(1) invert(0) !important;
+}
+
+.layout-container .dashboard-banner-container {
+    background-image: linear-gradient(180deg, #264f2d, #258936) !important;
+}
+
+.dashboard-banner-network-plain-container,
+.dashboard-banner-network-plain-container:after {
+    background-color: #258936;
+}
+
+.footer {
+    background: #258936;
+}
+
+.navbar-logo {
+    max-height: 48px;
+}
